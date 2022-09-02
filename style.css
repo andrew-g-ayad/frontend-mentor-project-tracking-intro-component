@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 body {
+  --Red: hsl(0, 100%, 68%);
+  --Very-Dark-Blue: hsl(230, 29%, 20%);
+  --Dark-Grayish-Blue: hsl(230, 11%, 40%);
+  --Grayish-Blue: hsl(231, 7%, 65%);
+  --Light-Grayish-Blue: hsl(207, 33%, 95%);
   box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*
+    Desktop Screen
+*/
+@media (min-width: 376px) {
 }
