@@ -12,12 +12,46 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Frontend Mentor | Project tracking intro component</title>
   </head>
   <body>
-    Product Features Pricing Login New Monograph Dashboard Powerful insights
-    into your team Project planning and time tracking for agile teams Schedule a
-    demo to see a live preview
+    <div class="background-container">
+      <div class="background-rec"></div>
+    </div>
+    <header>
+      <div class="logo">
+        <img src="/images/logo.svg" alt="logo" />
+      </div>
+      <nav id="menu" class="hide">
+        <ul class="nav-list">
+          <li class="list-item"><a href="#">Product</a></li>
+          <li class="list-item"><a href="#">Features</a></li>
+          <li class="list-item"><a href="#">Pricing</a></li>
+          <li class="list-item"><div class="divider"></div></li>
+          <li class="list-item"><a href="#">Login</a></li>
+        </ul>
+      </nav>
+      <div id="togglebtn" class="menu-toggle">
+        <img src="/images/icon-hamburger.svg" alt="logo" />
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="hero">
+        <div class="hero__image"></div>
+        <article class="content">
+          <div class="badge">
+            <div>NEW</div>
+            <p>Monograph Dashboard</p>
+          </div>
+          <h1>Powerful insights into your team</h1>
+          <h2>Project planning and time tracking for agile teams</h2>
+          <div class="call-to-action">
+            <a class="call__btn" href="#">Schedule a demo</a>
+            <a href="#">to see a live preview</a>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
